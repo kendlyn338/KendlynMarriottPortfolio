@@ -1,0 +1,89 @@
+.jumbotron {
+    margin: 50px 0 20px 220px;
+    border-radius:10px;
+    background: linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)),
+    url(https://images.unsplash.com/photo-1528538294120-1699b9c2cd48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA1fHxjb21wdXRlciUyMGFuZCUyMGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=100);
+    background-repeat: no-repeat;
+    color:white !important;
+    height: 500px;
+    width: 1000px;
+}
+
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: rgb(195,155,241);
+    background: radial-gradient(circle, rgba(195,155,241,1) 0%, rgba(120,163,191,1) 100%);
+}
+nav {
+    background: rgb(195,155,241);
+    background: radial-gradient(circle, rgba(195,155,241,1) 0%, rgba(120,163,191,1) 100%); 
+    text-align: right;
+    padding: 5px;
+    height: 75px
+    
+}
+
+
+
+
+h1 {
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4 {
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+:root {
+    --gradient: linear-gradient(to left top, #071e5c 10%, #381f93 90%) !important;
+}
+  
+  
+.card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(140, 15, 15, 0.8);
+    margin-bottom: 2rem;
+}
+  
+.btn {
+    border: 1px solid;
+    /* border-image-slice: 1; */
+    text-decoration: none;
+    transition: all .4s ease;
+}
+.btn:hover, .btn:focus {
+    background: var(--gradient) !important;
+    /* -webkit-background-clip: none !important; */
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline; 
+}
