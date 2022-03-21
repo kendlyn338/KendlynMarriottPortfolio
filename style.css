@@ -50,7 +50,9 @@ h4 {
 }
 h5 {
     text-align: center;
+    text-decoration: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
 }
 
 p {
@@ -61,29 +63,42 @@ p {
 
 
 
-:root {
-    --gradient: linear-gradient(to left top, #071e5c 10%, #381f93 90%) !important;
-}
+
+/* :root {
+    --gradient: linear-gradient(to left top, #071e5c 10%, #381f93 90%) !important; */
   
-  
+
 .card {
-    background: #222;
+    background: rgb(171, 200, 237);
     border: 1px solid #dd2476;
-    color: rgba(140, 15, 15, 0.8);
-    margin-bottom: 2rem;
+    color: rgba(7, 14, 107, 0.8);
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    width: 18rem;
+    height: 38rem;
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
   
 .btn {
-    border: 1px solid;
+    /* border: 1px solid; */
     /* border-image-slice: 1; */
     text-decoration: none;
     transition: all .4s ease;
+    background-color: rgb(3, 94, 94);
 }
 .btn:hover, .btn:focus {
     background: var(--gradient) !important;
     /* -webkit-background-clip: none !important; */
-    -webkit-text-fill-color: #fff !important;
-    border: 5px solid #fff !important; 
+   
+    border: 5px solid rgb(223, 13, 13) !important; 
     box-shadow: #222 1px 0 10px;
     text-decoration: underline; 
 }
+footer {
+    background: rgb(195,155,241);
+    background: radial-gradient(circle, rgba(195,155,241,1) 0%, rgba(120,163,191,1) 100%); 
+    text-align: center; 
+}
+

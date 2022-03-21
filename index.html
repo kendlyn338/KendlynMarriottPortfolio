@@ -14,8 +14,7 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel='stylesheet'
-    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -39,7 +38,7 @@
           <li><a href="{% url 'about' %}">Home</a></li>
           <li><a href="{% url 'reference' %}">About Me</a></li>
           <li><a href="{% url 'logout' %}">Resume</a></li>
-          <li><a href="{% url 'signup' %}">Contact Me</a></li>
+          <li><a href="{% url 'kendlyn338@gmail.com' %}">Contact Me</a></li>
         </ul>
       </div>
     </nav>
@@ -68,10 +67,10 @@
     <hr />
     </div>
 
-    <div class="container mx-auto mt-4">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <!-- <div class="card" style="width: 18rem;"> -->
             <img src="images/diabetes3.png" class="card-img-top" alt="GlukoseGuide">
             <div class="card-body">
               <h5 class="card-title">Glukose Guide</h5>
@@ -84,10 +83,9 @@
         </div>
 
 
-        <div class="container mx-auto mt-4">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card" style="width: 18rem;">
+        <!-- <div class="row row-cols-1 row-cols-md-3 g-4"> -->
+          <div class="col">
+            <div class="card">
                 <img src="images/basketball2.png" class="card-img-top" alt="Basketball">
                 <div class="card-body">
                   <h5 class="card-title">Basketball Tracker</h5>
@@ -99,10 +97,9 @@
             </div>
 
 
-            <div class="container mx-auto mt-4">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card" style="width: 18rem;">
+            <!-- <div class="row row-cols-1 row-cols-md-3 g-4"> -->
+              <div class="col">
+                <div class="card">
                     <img src="images/warhandler2.png" class="card-img-top" alt="WarHandler">
                     <div class="card-body">
                       <h5 class="card-title">WarHandler</h5>
@@ -112,12 +109,77 @@
                     </div>
                   </div>
                 </div>
+              </div>
 
-        <div class="navbar navbar-inverse navbar-fixed-bottom">
-          <div class="container">
-            <p class="navbar-text">© Kendlyn Marriott</p>
-          </div>
-        </div>
+              <footer class="text-center text-white fixed-bottom" style="background-color: radial-gradient(circle, rgba(195,155,241,1) 0%, rgba(120,163,191,1) 100%);;">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                  <!-- Section: Social media -->
+                  <section class="mb-4">
+                    <!-- Facebook -->
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #3b5998;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+              
+                    <!-- Twitter -->
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #55acee;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+              
+                    <!-- Google -->
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #dd4b39;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-google"></i
+                    ></a>
+              
+                    <!-- Instagram -->
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #ac2bac;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+              
+                    <!-- Linkedin -->
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #0082ca;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                    <!-- Github -->
+                    <a
+                      class="btn btn-primary btn-floating m-1"
+                      style="background-color: #333333;"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </section>
+                  <!-- Section: Social media -->
+                </div>
+                <!-- Grid container -->
+              
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                  © 2020 Copyright:
+                  <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+              </footer>
 </body>
 
 </html>
